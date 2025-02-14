@@ -1,0 +1,25 @@
+{
+  "name": "F2C Converter",
+  "version": "1.0.0",
+  "description": "This calculator converts temperatures from Farenheit to Celsius",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.test.js",
+      "**/*.spec.js"
+    ]
+  },
+  "author": "Brisa Carter",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}

@@ -1,0 +1,36 @@
+/*
+Name: Brisa Carter
+Assignment: Week 4 - F2C Converter 
+Description: This calculator converts temperatures from Farenheit to Celsius
+It extends from Calcualtor from Debasis
+Date: 02/07/25*/
+
+body{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 400;
+    color: rgb(7, 170, 78);
+}
+
+input [type=text]{
+    height: 24px;
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    width: 100%;
+}
+
+ button{
+    background-color: rgb(7, 170, 78);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    margin: 2px;
+    cursor: pointer;
+ }
